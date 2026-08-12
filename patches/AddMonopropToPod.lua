@@ -1,0 +1,5 @@
+PM.Parts:Patch("AddMonopropToPod")
+        :Named("pod_1v_command")
+        :Do(function(part)
+            part.resourceContainers:Add("MonoPropellant", 100, 100)
+        end)
