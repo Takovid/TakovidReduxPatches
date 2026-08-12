@@ -1,0 +1,14 @@
+{
+  "spec": "3.0",
+  "mod_id": "LearningPatches",
+  "name": "Learning Patches",
+  "author": "Your Name",
+  "description": "First Patch",
+  "source": "https://github.com/Takovid/TakovidReduxPatches",
+  "version": "1.0.0",
+  "ksp2_version": { "min": "0.2.8", "max": "*" },
+  "dependencies": [
+    { "id": "SpaceWarp2", "version": { "min": "2.0.0", "max": "*" } }
+  ],
+  "conflicts": []
+}
